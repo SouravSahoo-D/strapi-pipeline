@@ -33,7 +33,7 @@ sudo docker run -d \
   -e API_TOKEN_SALT="$API_TOKEN_SALT" \
   -e ADMIN_JWT_SECRET="$ADMIN_JWT_SECRET" \
   -e JWT_SECRET="$JWT_SECRET" \
-  brohan9/strapi-app:${docker_tag}
+  souravsahoo5/strapi-appl:${docker_tag}
 
 echo ">>> Done setting up Strapi"
 
